@@ -4,3 +4,9 @@ C:\Users\Lubo\Documents\Studia\Metody Realizacji Języków Programowania\Problem
 C:\Users\Lubo\Documents\Studia\Metody Realizacji Języków Programowania\ProblemKomiwojazera\ProblemKomiwojazera\obj\Debug\ProblemKomiwojazera.csprojResolveAssemblyReference.cache
 C:\Users\Lubo\Documents\Studia\Metody Realizacji Języków Programowania\ProblemKomiwojazera\ProblemKomiwojazera\obj\Debug\ProblemKomiwojazera.exe
 C:\Users\Lubo\Documents\Studia\Metody Realizacji Języków Programowania\ProblemKomiwojazera\ProblemKomiwojazera\obj\Debug\ProblemKomiwojazera.pdb
+C:\Users\Lubo\Desktop\Projects\GitHub\TSP_CSharp\ProblemKomiwojazera\ProblemKomiwojazera\bin\Debug\ProblemKomiwojazera.exe.config
+C:\Users\Lubo\Desktop\Projects\GitHub\TSP_CSharp\ProblemKomiwojazera\ProblemKomiwojazera\obj\Debug\ProblemKomiwojazera.exe
+C:\Users\Lubo\Desktop\Projects\GitHub\TSP_CSharp\ProblemKomiwojazera\ProblemKomiwojazera\obj\Debug\ProblemKomiwojazera.pdb
+C:\Users\Lubo\Desktop\Projects\GitHub\TSP_CSharp\ProblemKomiwojazera\ProblemKomiwojazera\bin\Debug\ProblemKomiwojazera.exe
+C:\Users\Lubo\Desktop\Projects\GitHub\TSP_CSharp\ProblemKomiwojazera\ProblemKomiwojazera\bin\Debug\ProblemKomiwojazera.pdb
+C:\Users\Lubo\Desktop\Projects\GitHub\TSP_CSharp\ProblemKomiwojazera\ProblemKomiwojazera\obj\Debug\ProblemKomiwojazera.csprojResolveAssemblyReference.cache

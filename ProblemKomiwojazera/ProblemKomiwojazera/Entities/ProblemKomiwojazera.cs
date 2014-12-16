@@ -176,7 +176,7 @@ namespace ProblemKomiwojazera
             for (int i = 0; i < _osobnicy.Count; i++)
             {
                 int przystosowanieOsobnika = _osobnicy[i].ObliczFitnessFunc(_macierzOdleglosci);
-                if (przystosowanieOsobnika > _najlepszyOsobnik.SumaWagOdleglosci)
+                if (przystosowanieOsobnika < _najlepszyOsobnik.SumaWagOdleglosci)
                     _najlepszyOsobnik = _osobnicy[i];
                 _sumaWartosciFuncPrzystosowania += przystosowanieOsobnika;
             }
