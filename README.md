@@ -1,0 +1,1 @@
+﻿Implementacja TSP. Program działa, jednak uwaga! Był pisany od 2 do 6 w nocy i może nie liczyć poprawnie.
