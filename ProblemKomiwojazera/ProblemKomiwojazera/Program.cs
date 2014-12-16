@@ -22,7 +22,7 @@ namespace ProblemKomiwojazera
             {
                 object ret = GetCzasPracy(czasPracy);
 
-                ProblemKomiwojazera pk = new ProblemKomiwojazera(string.Format("D:\\{0}.txt", fileName), 20, 0.8, 0.005, r);
+                ProblemKomiwojazera pk = new ProblemKomiwojazera(string.Format("D:\\{0}.txt", fileName), 20, 0.8, 0.014, r);
                 pk.InicjalizujOsobnikow();
 
                 Osobnik najlepszy = null;

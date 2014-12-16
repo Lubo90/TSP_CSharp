@@ -11,7 +11,7 @@ namespace ProblemKomiwojazera.Entities
         Random _random;
         int[] _geny;
         int _iloscGenow;
-        public int SumaWagOdleglosci;
+        public long SumaWagOdleglosci;
 
         public Osobnik(int iloscGenow, Random random)
         {
@@ -133,8 +133,9 @@ namespace ProblemKomiwojazera.Entities
             }
         }
 
-        public int ObliczFitnessFunc(int[,] macierzOdleglosci)
+        public long ObliczFitnessFunc(int[,] macierzOdleglosci)
         {
+            SumaWagOdleglosci = 0;
             int i;
             for (i = 0; i < _geny.Length - 1; i++)
                 SumaWagOdleglosci += macierzOdleglosci[_geny[i], _geny[i + 1]];

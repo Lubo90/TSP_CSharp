@@ -104,9 +104,9 @@ namespace ProblemKomiwojazera
             _osobnicy.Sort((os1, os2) =>
             {
                 if (os1.SumaWagOdleglosci < os2.SumaWagOdleglosci)
-                    return -1;
-                else if (os1.SumaWagOdleglosci > os2.SumaWagOdleglosci)
                     return 1;
+                else if (os1.SumaWagOdleglosci > os2.SumaWagOdleglosci)
+                    return -1;
                 else
                     return 0;
             });
@@ -175,10 +175,15 @@ namespace ProblemKomiwojazera
 
             for (int i = 0; i < _osobnicy.Count; i++)
             {
-                int przystosowanieOsobnika = _osobnicy[i].ObliczFitnessFunc(_macierzOdleglosci);
+                long przystosowanieOsobnika = _osobnicy[i].ObliczFitnessFunc(_macierzOdleglosci);
                 if (przystosowanieOsobnika < _najlepszyOsobnik.SumaWagOdleglosci)
                     _najlepszyOsobnik = _osobnicy[i];
                 _sumaWartosciFuncPrzystosowania += przystosowanieOsobnika;
+            }
+
+            for (int i = 0; i < _osobnicy.Count; i++)
+            {
+                _osobnicy[i].SumaWagOdleglosci = _sumaWartosciFuncPrzystosowania + 1 - _osobnicy[i].SumaWagOdleglosci;
             }
         }
 
